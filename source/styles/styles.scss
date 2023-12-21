@@ -1,7 +1,20 @@
 /* GLOBAL */
 @import "./global/variables.scss";
-@import "./global/global.scss";
+@import "./global/mixins.scss";
 @import "./global/fonts.scss";
+@import "./global/global.scss";
+@import "./global/common.scss";
 
 /* BLOCKS */
+@import "./blocks/button.scss";
 @import "./blocks/header.scss";
+@import "./blocks/hero.scss";
+@import "./blocks/nutrition.scss";
+@import "./blocks/how-it-works.scss";
+@import "./blocks/example.scss";
+@import "./blocks/contact.scss";
+@import "./blocks/footer.scss";
+@import "./blocks/program.scss";
+@import "./blocks/products.scss";
+@import "./blocks/additional.scss";
+@import "./blocks/button.scss";
