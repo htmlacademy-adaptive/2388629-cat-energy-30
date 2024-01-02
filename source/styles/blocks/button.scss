@@ -1,18 +1,44 @@
 .button {
-  font-family: "Oswald", sans-serif;
+  font-family: $oswald-font;
   font-size: 16px;
   line-height: 20px;
   color: $color-mobile;
   text-transform: uppercase;
   background-color: $bg-color-basic;
+  width: 100%;
 }
 
 .button--primary {
+  display: block;
   text-decoration: none;
+  padding: 14px 44px;
+  margin-top: 3px;
 }
 
 .button--additional-cards {
   color: $special-dark-grey;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   text-decoration: none;
+  padding: 10px 95px;
+}
+
+.button--application {
+  margin-top: 40px;
+  margin-bottom: 21px;
+  border: 0 none;
+  padding: 10px 44px;
+}
+
+.button--products {
+  margin-top: 17px;
+  margin-bottom: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 0 none;
+}
+
+.button--wide {
+  border: 0 none;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
